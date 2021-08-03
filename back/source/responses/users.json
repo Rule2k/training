@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "ville": "Paris",
+    "prenom": "Giacomo",
+    "nom": "Guilizzoni",
+    "right": "admin"
+  },
+  {
+    "id": 2,
+    "ville": "Grenoble",
+    "prenom": "Marco",
+    "nom": "Tuttofare",
+    "right": "read"
+  },
+  {
+    "id": 3,
+    "ville": "Lyon",
+    "prenom": "Jean Michel",
+    "nom": "Aulas",
+    "right": "read"
+  },
+  {
+    "id": 4,
+    "ville": "Geneve",
+    "prenom": "Valerie",
+    "nom": "Liberty",
+    "right": "admin"
+  },
+  {
+    "id": 5,
+    "ville": "Marseille",
+    "prenom": "Thomas",
+    "nom": "Chuster",
+    "right": "admin"
+  },
+  {
+    "id": 6,
+    "ville": "Singapour",
+    "prenom": "Nicky",
+    "nom": "Larson",
+    "right": "read"
+  },
+  {
+    "id": 7,
+    "ville": "Amsterdam",
+    "prenom": "Nicolas",
+    "nom": "Weed",
+    "right": "admin"
+  },
+  {
+    "id": 8,
+    "ville": "Los Angeles",
+    "prenom": "Jason",
+    "nom": "Bourne",
+    "right": "read"
+  },
+  {
+    "id": 9,
+    "ville": "New York",
+    "prenom": "T.J",
+    "nom": "Hooker",
+    "right": "admin"
+  },
+  {
+    "id": 10,
+    "ville": "Singapour",
+    "prenom": "Frane",
+    "nom": "Fine",
+    "right": "read"
+  },
+  {
+    "id": 11,
+    "ville": "Amsterdam",
+    "prenom": "Scarlett",
+    "nom": "Johansson",
+    "right": "admin"
+  },
+  {
+    "id": 12,
+    "ville": "Los Angeles",
+    "prenom": "Antonio",
+    "nom": "Banderas",
+    "right": "read"
+  },
+  {
+    "id": 13,
+    "ville": "Berlin",
+    "prenom": "Papa",
+    "nom": "Schultz",
+    "right": "admin"
+  }
+]

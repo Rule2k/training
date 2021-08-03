@@ -1,0 +1,64 @@
+[
+  {
+    "product": { "code": "report", "label": "Report" },
+    "children": [
+      {
+        "code": "dropdown",
+        "component_identifier": "dropdown",
+        "data": [
+          {
+            "id": "paris",
+            "label": "Paris"
+          },
+          {
+            "id": "grenoble",
+            "label": "Grenoble"
+          },
+          {
+            "id": "lyon",
+            "label": "Lyon"
+          },
+          {
+            "id": "geneve",
+            "label": "Geneve"
+          },
+          {
+            "id": "marseille",
+            "label": "Marseille"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": { "code": "benchmark", "label": "Benchmark" },
+    "children": [
+      {
+        "code": "benchmark_dropdown",
+        "component_identifier": "dropdown",
+        "data": [
+          {
+            "id": "new-york",
+            "label": "New York"
+          },
+          {
+            "id": "berlin",
+            "label": "Berlin"
+          },
+          {
+            "id": "los-angeles",
+            "label": "Los Angeles"
+          },
+          {
+            "id": "amsterdam",
+            "label": "Amsterdam"
+          },
+          {
+            "id": "singapour",
+            "label": "Singapour"
+          }
+        ]
+      }
+    ]
+  }
+]
