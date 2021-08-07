@@ -1,13 +1,16 @@
-export const sendRequest = async (
+export const sendRequest = async <T extends any>(
   endpoint: "/components" | "/users",
   payload?: any
-) => {
+): Promise<{
+  data: T;
+  ok: boolean;
+}> => {
   let resultReturn: { data: any; ok: boolean } = {
     data: null,
     ok: false,
   };
   try {
-    const response = await fetch("http://localhost:6060" + endpoint, {
+    const response = await fetch(`http://localhost:6060${endpoint}`, {
       method: "GET",
       body: payload ? payload : null,
     });

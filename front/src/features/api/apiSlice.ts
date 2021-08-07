@@ -6,11 +6,11 @@ interface Component {
     code: string;
     label: string;
   };
-  children: ReadonlyArray<{
+  children: {
     code: string;
     component_identifier: string;
-    data: ReadonlyArray<{ id: string; label: string }>;
-  }>;
+    data: { id: string; label: string }[];
+  }[];
 }
 
 interface User {
@@ -24,9 +24,9 @@ interface User {
 interface ApiState {
   components: {
     status: "idle" | "loading" | "failed";
-    data: ReadonlyArray<Component>;
+    data: Component[];
   };
-  users: { status: "idle" | "loading" | "failed"; data: ReadonlyArray<User> };
+  users: { status: "idle" | "loading" | "failed"; data: User[] };
 }
 
 const initialState: ApiState = {
@@ -41,12 +41,12 @@ const initialState: ApiState = {
 };
 
 export const getComponents = createAsyncThunk("api/getComponents", async () => {
-  const response = await sendRequest("/components");
+  const response = await sendRequest<Component[]>("/components");
   return response.data;
 });
 
 export const getUsers = createAsyncThunk("api/getUsers", async () => {
-  const response = await sendRequest("/users");
+  const response = await sendRequest<User[]>("/users");
   return response.data;
 });
 
