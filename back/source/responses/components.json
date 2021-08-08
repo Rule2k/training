@@ -34,7 +34,7 @@
     "product": { "code": "benchmark", "label": "Benchmark" },
     "children": [
       {
-        "code": "benchmark_dropdown",
+        "code": "dropdown",
         "component_identifier": "dropdown",
         "data": [
           {

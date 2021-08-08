@@ -1,7 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
+import { City } from "../../ui/App/App";
 import { sendRequest } from "./api";
-interface Component {
+export interface Component {
   product: {
     code: string;
     label: string;
@@ -9,11 +10,11 @@ interface Component {
   children: {
     code: string;
     component_identifier: string;
-    data: { id: string; label: string }[];
+    data: City[];
   }[];
 }
 
-interface User {
+export interface User {
   id: string;
   ville: string;
   prenom: string;
